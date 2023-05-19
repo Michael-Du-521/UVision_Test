@@ -9,6 +9,20 @@ namespace WinFormsApp2
 
         private void button1_Click(object sender, EventArgs e)
         {
+            // specify the data source
+            int[] scores = { 50, 60, 75, 95 };
+            //Define the query expression.
+            IEnumerable<int> scoreQuery =
+                from score in scores
+                where score > 80
+                select score;
+            //Execute the query.
+            foreach (int i in scoreQuery)
+                {
+                Console.WriteLine(i + " ");
+
+            }
+
 
         }
     }
