@@ -20,7 +20,7 @@ namespace WinFormsApp2
             foreach (int i in scoreQuery)
                 {
                  Console.WriteLine(i + " ");
-Console.WriteLine("Today I use Ubuntu to commit a change")
+Console.WriteLine("Today I use Ubuntu to commit a change");
             }
 
 
