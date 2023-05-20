@@ -19,8 +19,8 @@ namespace WinFormsApp2
             //Execute the query.
             foreach (int i in scoreQuery)
                 {
-                Console.WriteLine(i + " ");
-
+                 Console.WriteLine(i + " ");
+Console.WriteLine("Today I use Ubuntu to commit a change")
             }
 
 
